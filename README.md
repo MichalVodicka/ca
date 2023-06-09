@@ -1,0 +1,3 @@
+prerequisities
+
+* docker
