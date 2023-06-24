@@ -1,9 +1,9 @@
 <script lang="ts">
     export let state:boolean = false
-     let state2:boolean = false
+    export let click:Function = ()=>console.log('nothing')
 </script>
 
-<div class={`cell ${state && 'active'}`}></div>
+<div class={`cell ${state && 'active'}`} on:click={click}></div>
 
 <style lang="scss">
     .cell{

@@ -4,6 +4,9 @@
 
 </script>
 <div class="flex flex-col">
-    Rule: {ruleNumber} <input type="number" bind:value={ruleNumber} />
+    <div>
+        Rule: <input type="number" class="bg-amber-200 rounded p-1" bind:value={ruleNumber} />
+    </div>
+    <br />
     <Canvas ruleNumber={ruleNumber}/>
 </div>
