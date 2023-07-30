@@ -2,7 +2,7 @@
     import Cell from "./Cell.svelte";
     import ruleFac from "../data/rules";
     const defaultData = [1,50,60,101,105,125]
-    let ruleNumber = 30
+    export let ruleNumber
     let i;
 
     // # of elements

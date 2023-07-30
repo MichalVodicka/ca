@@ -1,6 +1,4 @@
-<div class="rounded-b-lg bg-[#1da1f2] container mx-auto p-4">
+<div class="">
 
-    <a href="/1d">
-        1D
-    </a>
+ Cellular automata viewer
 </div>

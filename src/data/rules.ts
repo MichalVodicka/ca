@@ -1,7 +1,7 @@
 const rules = {}
 
 for (let i = 0; i<256 ;i++){
-    const rule = (i>>>0).toString(2).padStart(8,0)
+    const rule = (i>>>0).toString(2).padStart(8,'0')
     rules[i] = Object.assign({}, [...rule].map(Number).reverse())
 }
 
