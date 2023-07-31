@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Canvas from "../components/Canvas.svelte";
+  import Canvas from "../components/Canvas1d.svelte";
   import H1 from "typography/H1.svelte";
-  $: ruleNumber = 0
+  $: ruleNumber = 1
 
 </script>
 

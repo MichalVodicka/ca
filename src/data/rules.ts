@@ -1,6 +1,6 @@
 const rules = {}
 
-for (let i = 0; i<256 ;i++){
+for (let i = 1; i<256 ;i++){
     const rule = (i>>>0).toString(2).padStart(8,'0')
     rules[i] = Object.assign({}, [...rule].map(Number).reverse())
 }
