@@ -10,4 +10,9 @@ export default defineConfig({
       ssr: { enable: true },
     }),
       svelte()],
+  resolve: {
+    alias: {
+      'typography': '/src/components/design/typography',
+    }
+  }
 })
