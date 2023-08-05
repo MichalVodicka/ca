@@ -14,7 +14,12 @@
     "importHelpers": true,
     "allowJs": true,
     "checkJs": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "baseUrl": ".", // This must be specified if "paths" is.
+    "paths": {
+      "typography/*": ["./src/components/design/typography/*"] // This mapping is relative to "baseUrl"
+    },
+    "types": ["svelte"]
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
   "references": [{ "path": "./tsconfig.node.json" }]

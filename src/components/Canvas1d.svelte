@@ -1,19 +1,19 @@
 <script lang="ts">
     import Cell from "./Cell.svelte";
-    import ruleFac from "../data/rules";
+    import ruleFac from "../data/rules1d";
     const defaultData = [1,50,60,101,105,125]
-    let ruleNumber = 30
+    export let ruleNumber
     let i;
 
     // # of elements
     let ic = 126
-    $: data = [];
-    $: firstRow = [];
+    $: data = [] as number[];
+    $: firstRow = [] as number[];
     $: i = defaultData.filter(val => val <= ic);
 
     $: {
         const rule = ruleFac(ruleNumber ?? 0)
-        let output = []
+        let output: string[][] = []
         let row: number[] = Array(ic).fill(false)
         i.map(el=>row[el]=1)
         firstRow = row
@@ -36,6 +36,7 @@
             }/>
         {/each}
     </div>
+    <br />
     {#each data as row}
         <div class="flex">
             {#each row as el}
