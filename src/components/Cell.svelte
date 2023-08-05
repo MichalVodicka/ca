@@ -9,9 +9,12 @@
     .cell{
       width: calc(.3rem + 2px);
       height: calc(.3rem + 2px);
+      border: 1px solid inherit;
       &.active{
         background: #000;
+        border-color:  #000;
       }
+
       &.click{
         border: 1px solid red;
         height: .3rem;
