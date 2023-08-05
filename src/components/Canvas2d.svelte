@@ -18,7 +18,7 @@
 {#each data as row}
     <div class="flex">
         {#each row as el}
-            <Cell state={el}/>
+            <Cell state={!!el}/>
         {/each}
     </div>
 {/each}
