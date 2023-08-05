@@ -2,20 +2,20 @@
     import Cell from "./Cell.svelte";
     import ruleFac from "../data/rules1d";
     const defaultData = [1,50,60,101,105,125]
-    export let ruleNumber
-    let i;
+    export let ruleNumber: number
+    let i: number[];
 
     // # of elements
     let ic = 126
-    $: data = [] as number[];
+    $: data = [] as number[][];
     $: firstRow = [] as number[];
     $: i = defaultData.filter(val => val <= ic);
 
     $: {
         const rule = ruleFac(ruleNumber ?? 0)
-        let output: string[][] = []
+        let output: number[][] = []
         let row: number[] = Array(ic).fill(false)
-        i.map(el=>row[el]=1)
+        i.map((el:number) =>row[el]=1)
         firstRow = row
         output.push(row)
         for (let i = 0; i < 300; i++) {
@@ -30,7 +30,7 @@
 {#if data && firstRow}
     <div class="flex">
         {#each firstRow as el, idx}
-            <Cell state={el} click={()=> {
+            <Cell state={!!el} click={()=> {
                 i=[i.includes(idx)?null:idx, ...i.filter(el=> el!==idx)].filter(Boolean)
                 }
             }/>
@@ -40,7 +40,7 @@
     {#each data as row}
         <div class="flex">
             {#each row as el}
-                <Cell state={el}/>
+                <Cell state={!!el}/>
             {/each}
         </div>
     {/each}
