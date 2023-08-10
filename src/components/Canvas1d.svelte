@@ -13,8 +13,8 @@
 
     $: {
         const rule = ruleFac(ruleNumber ?? 0)
-        let output: number[][] = []
-        let row: number[] = Array(ic).fill(false)
+        let output: boolean[][] = []
+        let row: boolean[] = Array(ic).fill(false)
         i.map((el:number) =>row[el]=1)
         firstRow = row
         output.push(row)
