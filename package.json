@@ -18,7 +18,7 @@
     "@roxi/routify": "3.0.0-next.173",
     "@sveltejs/vite-plugin-svelte": "2.4.5",
     "@tsconfig/svelte": "5.0.0",
-    "autoprefixer": "10.4.14",
+    "autoprefixer": "10.4.15",
     "postcss": "8.4.27",
     "postcss-load-config": "4.0.1",
     "sass": "1.65.1",
