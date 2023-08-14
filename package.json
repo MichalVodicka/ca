@@ -46,6 +46,7 @@
     }
   },
   "dependencies": {
+    "license-checker": "^25.0.1",
     "spank": "^2.0.0"
   }
 }
