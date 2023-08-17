@@ -21,3 +21,20 @@ jobs:
           node-version: 20
       - run: npm install
       - run: tsc
+  depoy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npm run build
+      - name: Deploy to S3 action step
+        uses: ./.github/actions/deploy-s3
+        with:
+          id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          from: ${{ vars.DEPLOY_FROM }}
+          to: ${{ vars.DEPLOY_TO }}

@@ -1,0 +1,25 @@
+name: 'deploy S3'
+description: 'deploy a file to S3 bucket'
+
+inputs:
+  id:
+    description: 'AWS access key id'
+    required: true
+  key:
+    description: 'AWS secret key'
+    required: true
+  from:
+    description: 'local path/file to deploy e.g. ./dist/index.html'
+    required: true
+  to:
+    description: 'specify s3 bucket e.g. s3://my-bucket'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  env:
+    AWS_ACCESS_KEY_ID: ${{ inputs.id }}
+    AWS_SECRET_ACCESS_KEY: ${{ inputs.key }}
+    DEPLOY_FROM: ${{ inputs.from }}
+    DEPLOY_TO: ${{ inputs.to }}
