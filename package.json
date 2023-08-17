@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "vite",
-    "doc": "sassdoc src/"
+    "doc": "sassdoc src/",
+    "licenced-checker": "license-checker --production --json > licenses.json"
   },
   "keywords": [],
   "author": "",
