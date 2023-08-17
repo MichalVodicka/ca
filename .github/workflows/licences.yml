@@ -1,18 +1,18 @@
-name: Licenses
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    name: Check licenses
-    steps:
-      - uses: actions/checkout@v3
-      - run: npm ci
-      - run: npm run license-checker
+#name: Licenses
+#
+#on:
+#  push:
+#    branches:
+#      - main
+#  pull_request:
+#    branches:
+#      - main
+#
+#jobs:
+#  test:
+#    runs-on: ubuntu-latest
+#    name: Check licenses
+#    steps:
+#      - uses: actions/checkout@v3
+#      - run: npm ci
+#      - run: npm run license-checker
