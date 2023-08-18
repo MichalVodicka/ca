@@ -1,4 +1,4 @@
-name: unit-test
+name: unit-tests
 on: push
 jobs:
   unit-tests:

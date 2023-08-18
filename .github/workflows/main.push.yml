@@ -1,8 +1,9 @@
 on:
-  push:
-    branches:
-      - main
-
+  workflow_run:
+    workflows: [unit-tests]
+    branches: [main]
+    types:
+      - completed
 jobs:
   depoy:
     runs-on: ubuntu-latest
