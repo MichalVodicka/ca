@@ -17,7 +17,7 @@
   "type": "module",
   "devDependencies": {
     "@roxi/routify": "3.0.0-next.184",
-    "@sveltejs/vite-plugin-svelte": "2.4.5",
+    "@sveltejs/vite-plugin-svelte": "2.4.6",
     "@tsconfig/svelte": "5.0.2",
     "autoprefixer": "10.4.15",
     "postcss": "8.4.29",
