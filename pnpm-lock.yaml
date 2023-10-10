@@ -43,8 +43,8 @@ devDependencies:
     specifier: 4.0.1
     version: 4.0.1(postcss@8.4.31)
   sass:
-    specifier: 1.69.1
-    version: 1.69.1
+    specifier: 1.69.2
+    version: 1.69.2
   sassdoc:
     specifier: 2.7.4
     version: 2.7.4
@@ -53,10 +53,10 @@ devDependencies:
     version: 4.2.1
   svelte-check:
     specifier: 3.5.2
-    version: 3.5.2(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.1)(svelte@4.2.1)
+    version: 3.5.2(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.2)(svelte@4.2.1)
   svelte-preprocess:
     specifier: 5.0.4
-    version: 5.0.4(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.1)(svelte@4.2.1)(typescript@5.2.2)
+    version: 5.0.4(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.2)(svelte@4.2.1)(typescript@5.2.2)
   tailwindcss:
     specifier: 3.3.3
     version: 3.3.3
@@ -68,10 +68,10 @@ devDependencies:
     version: 5.2.2
   vite:
     specifier: 4.4.11
-    version: 4.4.11(@types/node@20.4.9)(sass@1.69.1)
+    version: 4.4.11(@types/node@20.4.9)(sass@1.69.2)
   vitest:
     specifier: ^0.34.1
-    version: 0.34.1(sass@1.69.1)
+    version: 0.34.1(sass@1.69.2)
 
 packages:
 
@@ -374,7 +374,7 @@ packages:
       prompts: 2.4.2
       spank: 2.0.0
       svelte: 3.59.2
-      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.1)
+      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.2)
     dev: true
 
   /@sinclair/typebox@0.27.8:
@@ -397,7 +397,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 2.4.6(svelte@4.2.1)(vite@4.4.11)
       debug: 4.3.4
       svelte: 4.2.1
-      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.1)
+      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -416,7 +416,7 @@ packages:
       magic-string: 0.30.3
       svelte: 4.2.1
       svelte-hmr: 0.15.3(svelte@4.2.1)
-      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.1)
+      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.2)
       vitefu: 0.2.4(vite@4.4.11)
     transitivePeerDependencies:
       - supports-color
@@ -3119,8 +3119,8 @@ packages:
       which: 1.3.1
     dev: true
 
-  /sass@1.69.1:
-    resolution: {integrity: sha512-nc969GvTVz38oqKgYYVHM/Iq7Yl33IILy5uqaH2CWSiSUmRCvw+UR7tA3845Sp4BD5ykCUimvrT3k1EjTwpVUA==}
+  /sass@1.69.2:
+    resolution: {integrity: sha512-48lDtG/9OuSQZ9oNmJMUXI2QdCakAWrAGjpX/Fy6j4Og8dEAyE598x5GqCqnHkwV7+I5w8DJpqjm581q5HNh3w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3408,7 +3408,7 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /svelte-check@3.5.2(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.1)(svelte@4.2.1):
+  /svelte-check@3.5.2(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.2)(svelte@4.2.1):
     resolution: {integrity: sha512-5a/YWbiH4c+AqAUP+0VneiV5bP8YOk9JL3jwvN+k2PEPLgpu85bjQc5eE67+eIZBBwUEJzmO3I92OqKcqbp3fw==}
     hasBin: true
     peerDependencies:
@@ -3421,7 +3421,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 4.2.1
-      svelte-preprocess: 5.0.4(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.1)(svelte@4.2.1)(typescript@5.2.2)
+      svelte-preprocess: 5.0.4(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.2)(svelte@4.2.1)(typescript@5.2.2)
       typescript: 5.2.2
     transitivePeerDependencies:
       - '@babel/core'
@@ -3444,7 +3444,7 @@ packages:
       svelte: 4.2.1
     dev: true
 
-  /svelte-preprocess@5.0.4(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.1)(svelte@4.2.1)(typescript@5.2.2):
+  /svelte-preprocess@5.0.4(postcss-load-config@4.0.1)(postcss@8.4.31)(sass@1.69.2)(svelte@4.2.1)(typescript@5.2.2):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -3487,7 +3487,7 @@ packages:
       magic-string: 0.27.0
       postcss: 8.4.31
       postcss-load-config: 4.0.1(postcss@8.4.31)
-      sass: 1.69.1
+      sass: 1.69.2
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.2.1
@@ -3883,7 +3883,7 @@ packages:
       replace-ext: 1.0.1
     dev: true
 
-  /vite-node@0.34.1(@types/node@20.4.9)(sass@1.69.1):
+  /vite-node@0.34.1(@types/node@20.4.9)(sass@1.69.2):
     resolution: {integrity: sha512-odAZAL9xFMuAg8aWd7nSPT+hU8u2r9gU3LRm9QKjxBEF2rRdWpMuqkrkjvyVQEdNFiBctqr2Gg4uJYizm5Le6w==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -3893,7 +3893,7 @@ packages:
       mlly: 1.4.0
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.1)
+      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.2)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3905,7 +3905,7 @@ packages:
       - terser
     dev: true
 
-  /vite@4.4.11(@types/node@20.4.9)(sass@1.69.1):
+  /vite@4.4.11(@types/node@20.4.9)(sass@1.69.2):
     resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3937,7 +3937,7 @@ packages:
       esbuild: 0.18.17
       postcss: 8.4.31
       rollup: 3.27.2
-      sass: 1.69.1
+      sass: 1.69.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -3950,10 +3950,10 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.1)
+      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.2)
     dev: true
 
-  /vitest@0.34.1(sass@1.69.1):
+  /vitest@0.34.1(sass@1.69.2):
     resolution: {integrity: sha512-G1PzuBEq9A75XSU88yO5G4vPT20UovbC/2osB2KEuV/FisSIIsw7m5y2xMdB7RsAGHAfg2lPmp2qKr3KWliVlQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -4005,8 +4005,8 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.0
       tinypool: 0.7.0
-      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.1)
-      vite-node: 0.34.1(@types/node@20.4.9)(sass@1.69.1)
+      vite: 4.4.11(@types/node@20.4.9)(sass@1.69.2)
+      vite-node: 0.34.1(@types/node@20.4.9)(sass@1.69.2)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
