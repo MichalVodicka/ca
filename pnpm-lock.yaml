@@ -25,8 +25,8 @@ dependencies:
 
 devDependencies:
   '@roxi/routify':
-    specifier: 3.0.0-next.202
-    version: 3.0.0-next.202(spank@2.0.0)(vite@4.5.1)
+    specifier: 3.0.0-next.203
+    version: 3.0.0-next.203(spank@2.0.0)(vite@4.5.1)
   '@sveltejs/vite-plugin-svelte':
     specifier: 2.5.3
     version: 2.5.3(svelte@4.2.8)(vite@4.5.1)
@@ -348,8 +348,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@roxi/routify@3.0.0-next.202(spank@2.0.0)(vite@4.5.1):
-    resolution: {integrity: sha512-2Et7/Nz3y4PCXJ5MTfq9mujHx9DAdCi+xt6unwXYdnrGrUSGmLqxraWns+NzZKkISk4U2QybYQVQAu8NH7Fshg==}
+  /@roxi/routify@3.0.0-next.203(spank@2.0.0)(vite@4.5.1):
+    resolution: {integrity: sha512-E24amtFW72e5vfWzEHbFYQV345CK8cTb4SpG3jWcAYkdGsiYDeIeUbs3cf8GEFy8cXVMBtcLxg+KdbF/SwD9zQ==}
     hasBin: true
     peerDependencies:
       spank: ^2.0.0
