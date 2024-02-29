@@ -16,7 +16,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@roxi/routify": "3.0.0-next.216",
+    "@roxi/routify": "3.0.0-next.217",
     "@sveltejs/vite-plugin-svelte": "2.5.3",
     "@tsconfig/svelte": "5.0.2",
     "autoprefixer": "10.4.17",
