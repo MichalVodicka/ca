@@ -27,8 +27,8 @@ importers:
         version: 2.0.0
     devDependencies:
       '@roxi/routify':
-        specifier: 3.0.0-next.223
-        version: 3.0.0-next.223(spank@2.0.0)(vite@4.5.3(@types/node@20.4.9)(sass@1.75.0))
+        specifier: 3.0.0-next.224
+        version: 3.0.0-next.224(spank@2.0.0)(vite@4.5.3(@types/node@20.4.9)(sass@1.75.0))
       '@sveltejs/vite-plugin-svelte':
         specifier: 2.5.3
         version: 2.5.3(svelte@4.2.15)(vite@4.5.3(@types/node@20.4.9)(sass@1.75.0))
@@ -254,8 +254,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@roxi/routify@3.0.0-next.223':
-    resolution: {integrity: sha512-eqiUgjD0IBG1Rb0o/bueIZR3JNgA6kkuoyW3AZ3SbdDWXhCze3Yr7j02INcLHDVhEuULxG0ySuGhL5/Q2FIozw==}
+  '@roxi/routify@3.0.0-next.224':
+    resolution: {integrity: sha512-r+ABZQCiJ5O7VS40Vb6EeE5nMIkgvHMxRfybJ1ku0fNn9S9wVWi8rOonOY2Ay3VYzK2C2b3CeI7awEi/tfCoqg==}
     hasBin: true
     peerDependencies:
       spank: ^2.0.0
@@ -2546,7 +2546,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  '@roxi/routify@3.0.0-next.223(spank@2.0.0)(vite@4.5.3(@types/node@20.4.9)(sass@1.75.0))':
+  '@roxi/routify@3.0.0-next.224(spank@2.0.0)(vite@4.5.3(@types/node@20.4.9)(sass@1.75.0))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.5.3(svelte@3.59.2)(vite@4.5.3(@types/node@20.4.9)(sass@1.75.0))
       cachewrap: 0.0.1
