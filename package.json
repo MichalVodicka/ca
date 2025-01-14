@@ -20,7 +20,7 @@
     "@sveltejs/vite-plugin-svelte": "2.5.3",
     "@tsconfig/svelte": "5.0.4",
     "autoprefixer": "10.4.20",
-    "postcss": "8.4.49",
+    "postcss": "8.5.0",
     "postcss-load-config": "4.0.2",
     "sass": "1.83.1",
     "sassdoc": "2.7.4",
