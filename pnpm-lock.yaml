@@ -27,8 +27,8 @@ importers:
         version: 2.2.0
     devDependencies:
       '@roxi/routify':
-        specifier: 3.0.0-next.253
-        version: 3.0.0-next.253(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.19.2)(vite@4.5.9(@types/node@20.4.9)(sass@1.83.4)))(spank@2.2.0)(svelte@5.19.2)(vite@4.5.9(@types/node@20.4.9)(sass@1.83.4))
+        specifier: 3.0.0-next.254
+        version: 3.0.0-next.254(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.19.2)(vite@4.5.9(@types/node@20.4.9)(sass@1.83.4)))(spank@2.2.0)(svelte@5.19.2)(vite@4.5.9(@types/node@20.4.9)(sass@1.83.4))
       '@sveltejs/vite-plugin-svelte':
         specifier: 2.5.3
         version: 2.5.3(svelte@5.19.2)(vite@4.5.9(@types/node@20.4.9)(sass@1.83.4))
@@ -352,8 +352,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@roxi/routify@3.0.0-next.253':
-    resolution: {integrity: sha512-45PJQOQXbczyBhs25dulj3ltvdTlbkPCmTE6DGKE5w6/fhBXF2msw9vw3IdsKyEHbBtCEAghKBl6SshA6UKeLQ==}
+  '@roxi/routify@3.0.0-next.254':
+    resolution: {integrity: sha512-8RrV8fQS8opC6vZEVgd8GB8hZDxs6bQGMQr4Kr06KkS7jjlrt4+yNI4e8fCPzgLDbz14Gjl36oFOpTPXolSuvw==}
     hasBin: true
     peerDependencies:
       '@sveltejs/vite-plugin-svelte': ^2.4.6 || ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -2882,7 +2882,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@roxi/routify@3.0.0-next.253(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.19.2)(vite@4.5.9(@types/node@20.4.9)(sass@1.83.4)))(spank@2.2.0)(svelte@5.19.2)(vite@4.5.9(@types/node@20.4.9)(sass@1.83.4))':
+  '@roxi/routify@3.0.0-next.254(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.19.2)(vite@4.5.9(@types/node@20.4.9)(sass@1.83.4)))(spank@2.2.0)(svelte@5.19.2)(vite@4.5.9(@types/node@20.4.9)(sass@1.83.4))':
     dependencies:
       cachewrap: 0.0.1
       cheap-watch: 1.0.4
