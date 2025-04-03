@@ -22,7 +22,7 @@
     "autoprefixer": "10.4.21",
     "postcss": "8.5.3",
     "postcss-load-config": "4.0.2",
-    "sass": "1.86.1",
+    "sass": "1.86.2",
     "sassdoc": "2.7.4",
     "svelte": "5.25.6",
     "svelte-check": "3.8.6",
