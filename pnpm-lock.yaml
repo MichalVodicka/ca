@@ -27,8 +27,8 @@ importers:
         version: 2.2.0
     devDependencies:
       '@roxi/routify':
-        specifier: 3.0.0-next.270
-        version: 3.0.0-next.270(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.28.1)(vite@4.5.13(@types/node@20.4.9)(sass@1.86.3)))(spank@2.2.0)(svelte@5.28.1)(vite@4.5.13(@types/node@20.4.9)(sass@1.86.3))
+        specifier: 3.0.0-next.271
+        version: 3.0.0-next.271(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.28.1)(vite@4.5.13(@types/node@20.4.9)(sass@1.86.3)))(spank@2.2.0)(svelte@5.28.1)(vite@4.5.13(@types/node@20.4.9)(sass@1.86.3))
       '@sveltejs/vite-plugin-svelte':
         specifier: 2.5.3
         version: 2.5.3(svelte@5.28.1)(vite@4.5.13(@types/node@20.4.9)(sass@1.86.3))
@@ -343,8 +343,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@roxi/routify@3.0.0-next.270':
-    resolution: {integrity: sha512-HLC0G9A4PuxQToYcujTJzmEd+o9/CkL2nDKP9hRD2qi12UN9yHyo5dZt55Ej5/khOrDgj7V7jQHntleGRI8cSQ==}
+  '@roxi/routify@3.0.0-next.271':
+    resolution: {integrity: sha512-6K81thBgP1TXDNXIZNr6qqpoz+Fg0n8r59WOszpU5Yfh1J7bTZqzWVzy0l0lBWHXbgYrMCkbEcqukEeQcegscQ==}
     hasBin: true
     peerDependencies:
       '@sveltejs/vite-plugin-svelte': ^2.4.6 || ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -1616,6 +1616,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
@@ -2823,7 +2824,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@roxi/routify@3.0.0-next.270(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.28.1)(vite@4.5.13(@types/node@20.4.9)(sass@1.86.3)))(spank@2.2.0)(svelte@5.28.1)(vite@4.5.13(@types/node@20.4.9)(sass@1.86.3))':
+  '@roxi/routify@3.0.0-next.271(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.28.1)(vite@4.5.13(@types/node@20.4.9)(sass@1.86.3)))(spank@2.2.0)(svelte@5.28.1)(vite@4.5.13(@types/node@20.4.9)(sass@1.86.3))':
     dependencies:
       cachewrap: 0.0.1
       cheap-watch: 1.0.4
