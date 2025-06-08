@@ -24,7 +24,7 @@
     "postcss-load-config": "6.0.1",
     "sass": "1.89.1",
     "sassdoc": "2.7.4",
-    "svelte": "5.33.17",
+    "svelte": "5.33.18",
     "svelte-check": "4.2.1",
     "svelte-preprocess": "6.0.3",
     "tailwindcss": "3.4.17",
