@@ -27,8 +27,8 @@ importers:
         version: 2.2.4
     devDependencies:
       '@roxi/routify':
-        specifier: 3.0.0-next.290
-        version: 3.0.0-next.290(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.36.13)(vite@4.5.14(@types/node@20.4.9)(sass@1.89.2)))(dotenv-expand@10.0.0)(spank@2.2.4)(svelte@5.36.13)(vite@4.5.14(@types/node@20.4.9)(sass@1.89.2))
+        specifier: 3.0.0-next.292
+        version: 3.0.0-next.292(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.36.13)(vite@4.5.14(@types/node@20.4.9)(sass@1.89.2)))(dotenv-expand@10.0.0)(spank@2.2.4)(svelte@5.36.13)(vite@4.5.14(@types/node@20.4.9)(sass@1.89.2))
       '@sveltejs/vite-plugin-svelte':
         specifier: 2.5.3
         version: 2.5.3(svelte@5.36.13)(vite@4.5.14(@types/node@20.4.9)(sass@1.89.2))
@@ -343,11 +343,11 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@roxi/routify@3.0.0-next.290':
-    resolution: {integrity: sha512-Jefi6UZ7ZO9Ote03/tBQ4gEV874FFQPgH/8MUphD3DudwTI268YU0cZhifHPp3Y1w9S7XCEoLeG3KPsmf5Paiw==}
+  '@roxi/routify@3.0.0-next.292':
+    resolution: {integrity: sha512-p4179utN3A+uVs99kV4pBs+amFhXooKWrPmbxEEUxriVEPanPp+7Vq+Dw2HTz4mn4oBqYqA8StRmqNImwjduCQ==}
     hasBin: true
     peerDependencies:
-      '@sveltejs/vite-plugin-svelte': ^2.4.6 || ^3.0.0 || ^4.0.0 || ^5.0.0
+      '@sveltejs/vite-plugin-svelte': ^2.4.6 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
       dotenv-expand: ^8.0.0 || ^9.0.0 || ^10.0.0
       spank: ^2.0.0
       svelte: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -760,6 +760,9 @@ packages:
 
   configent@2.2.0:
     resolution: {integrity: sha512-yIN6zfOWk2nycNJ2JFNiWEai0oiqAhISIht8+pbEBP8bdcpwoQ74AhCZPbUv9aRVJwo7wh1MbCBDUV44UJa7Kw==}
+
+  configent@3.0.0:
+    resolution: {integrity: sha512-rRHuq5ZP/J57RkD/ZKQypK+h//ocfKgddfyaKPRa8D4BjIX5egnbcGSUv173+LPhVGGc+gDotqf08muw3EdujA==}
 
   configent@3.0.0-14:
     resolution: {integrity: sha512-IKzrqrAIWvZ17j0VZkWIz7KGm8KWu2jW6XgRCfJbWgYWk2XS9qPjynjjSMbIT7zox2l6Njd3NbRq9dkv1gk3zQ==}
@@ -2873,13 +2876,13 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@roxi/routify@3.0.0-next.290(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.36.13)(vite@4.5.14(@types/node@20.4.9)(sass@1.89.2)))(dotenv-expand@10.0.0)(spank@2.2.4)(svelte@5.36.13)(vite@4.5.14(@types/node@20.4.9)(sass@1.89.2))':
+  '@roxi/routify@3.0.0-next.292(@sveltejs/vite-plugin-svelte@2.5.3(svelte@5.36.13)(vite@4.5.14(@types/node@20.4.9)(sass@1.89.2)))(dotenv-expand@10.0.0)(spank@2.2.4)(svelte@5.36.13)(vite@4.5.14(@types/node@20.4.9)(sass@1.89.2))':
     dependencies:
       cachewrap: 0.0.1
       cheap-watch: 1.0.4
       cheerio: 1.0.0
       commander: 7.2.0
-      configent: 3.0.0-14
+      configent: 3.0.0
       consolite: 0.3.12
       dotenv-expand: 10.0.0
       fs-extra: 10.1.0
@@ -3303,6 +3306,11 @@ snapshots:
   configent@2.2.0:
     dependencies:
       dotenv: 8.6.0
+
+  configent@3.0.0:
+    dependencies:
+      dotenv: 16.6.1
+      esm: 3.2.25
 
   configent@3.0.0-14:
     dependencies:
