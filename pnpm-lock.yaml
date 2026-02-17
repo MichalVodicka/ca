@@ -33,8 +33,8 @@ importers:
         specifier: 2.5.3
         version: 2.5.3(svelte@5.51.2)(vite@4.5.14(@types/node@20.4.9)(sass@1.97.3))
       '@tsconfig/svelte':
-        specifier: 5.0.7
-        version: 5.0.7
+        specifier: 5.0.8
+        version: 5.0.8
       autoprefixer:
         specifier: 10.4.24
         version: 10.4.24(postcss@8.5.6)
@@ -391,8 +391,8 @@ packages:
     resolution: {integrity: sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==}
     engines: {node: '>= 6'}
 
-  '@tsconfig/svelte@5.0.7':
-    resolution: {integrity: sha512-NOtJF9LQnV7k6bpzcXwL/rXdlFHvAT9e0imrftiMc6/+FUNBHRZ8UngDrM+jciA6ENzFYNoFs8rfwumuGF+Dhw==}
+  '@tsconfig/svelte@5.0.8':
+    resolution: {integrity: sha512-UkNnw1/oFEfecR8ypyHIQuWYdkPvHiwcQ78sh+ymIiYoF+uc5H1UBetbjyqT+vgGJ3qQN6nhucJviX6HesWtKQ==}
 
   '@types/chai-subset@1.3.3':
     resolution: {integrity: sha512-frBecisrNGz+F4T6bcc+NLeolfiojh5FxW2klu669+8BARtyQv2C/GkNW6FUodVe4BroGMP/wER/YDGc7rEllw==}
@@ -2916,7 +2916,7 @@ snapshots:
 
   '@tootallnate/once@1.1.2': {}
 
-  '@tsconfig/svelte@5.0.7': {}
+  '@tsconfig/svelte@5.0.8': {}
 
   '@types/chai-subset@1.3.3':
     dependencies:
